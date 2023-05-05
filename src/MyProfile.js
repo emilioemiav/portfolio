@@ -4,6 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 const Habilidades = () => {
   return (
     <Container>
+      <section id="my"></section>
       <div className="d-flex flex-column align-items-center mb-5 mt-5">
         <img
           src="logo192.png"

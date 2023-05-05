@@ -2,6 +2,7 @@ import Home from "./Home";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Profile from "./MyProfile";
 import NavBar from "./Navbar";
+import Contacto from "./Contacto";
 
 function App() {
   return (
@@ -10,8 +11,9 @@ function App() {
         <NavBar />
       </header>
       <body>
-        <Profile></Profile>
-        <Home></Home>
+        <Profile />
+        <Home />
+        <Contacto />
       </body>
     </div>
   );

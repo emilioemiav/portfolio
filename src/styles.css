@@ -1,0 +1,24 @@
+.navbar {
+  background-color: #2e8bc0;
+  padding: 16px;
+}
+
+.navbar .navbar-brand {
+  color: #ffffff;
+  margin-left: 24px;
+}
+
+.navbar .nav-link {
+  color: #ffffff;
+  margin-left: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-dark .navbar-toggler:hover {
+  background-color: rgba(255, 255, 255, 0.185);
+  color: #2e8bc0;
+}
+.navbar-dark .navbar-toggler {
+  margin-right: 24px;
+}
