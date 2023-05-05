@@ -10,7 +10,7 @@ function App() {
       <header className="App-header">
         <NavBar />
       </header>
-      <body>
+      <body style={{ marginTop: "20%" }}>
         <Profile />
         <Home />
         <Contacto />

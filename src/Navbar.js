@@ -4,7 +4,7 @@ import "./styles.css";
 
 const NavBar = () => {
   return (
-    <Navbar expand="lg">
+    <Navbar expand="lg" fixed="top" m="4">
       <Navbar.Brand href="#">My Porfolio</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
