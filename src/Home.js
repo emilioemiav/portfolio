@@ -1,6 +1,5 @@
 import React from "react";
-
-//este es mi home pero tengo la info de los proyectos nomas,,tendria q cambiarlo de nombre a proyectos, y usar el app como home que es el que cumple la funcion de home
+import "./home.css";
 
 const Home = () => {
   const projects = [

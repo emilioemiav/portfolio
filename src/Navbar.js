@@ -6,9 +6,9 @@ const NavBar = () => {
   return (
     <Navbar expand="lg" fixed="top" m="4">
       <Navbar.Brand href="#">My Porfolio</Navbar.Brand>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="mx-auto">
+      <Navbar.Toggle className="custom-toggle" />
+      <Navbar.Collapse>
+        <Nav>
           <Nav.Link href="#home">Inicio</Nav.Link>
           <Nav.Link href="#my">Sobre mí</Nav.Link>
           <Nav.Link href="#proyectos">Proyectos</Nav.Link>
